@@ -8,7 +8,6 @@ sg.theme('dark grey 9') #Set Terminal theme
 # Define the window's contents
 terminal = os.popen("tb").readlines()
 tOutput = ""
-
 layout = [  [sg.Text(tOutput.join(terminal), key='-OUTPUT-')],     #Widget component layout
             [sg.Input( enable_events=True,key='-INPUT-')],
             [sg.Button('Enter'), sg.Button('Quit')],
