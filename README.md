@@ -24,4 +24,4 @@ I know this program is in python, is really slow and is a mess, but I was hoping
 
 
 
-This is my first open, public and criticizable, plz be nice
+This is my first open, public and criticizable, plz be nice.
