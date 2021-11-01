@@ -13,7 +13,7 @@ layout = [  [sg.Text(tOutput.join(terminal), key='-OUTPUT-')],     #Widget compo
             [sg.Button('Enter'), sg.Button('Quit')],
             [sg.Button('Submit', visible=False, bind_return_key=True)]]
 # Create the window
-window = sg.Window('Taskbook GUI', layout, icon='/favicon.ico')      #Window Defintion
+window = sg.Window('Taskbook GUI', layout)      #Window Defintion
 
 
 #This will style the text similar to the terminal styling
